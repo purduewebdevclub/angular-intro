@@ -1,6 +1,6 @@
 import angular from 'angular';
 class App { // class App
-    constructor(){this.info = "as";}
+    constructor(){}
 }
 angular.module("myApp", []) //creates a 'myApp' module
     .controller("App", App);
